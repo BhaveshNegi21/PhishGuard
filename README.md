@@ -1,4 +1,4 @@
-# PhishGuard 🛡️
+# PhishGuard 
 ### ML-Powered Phishing URL Detection with Cyber Threat Intelligence
 
 PhishGuard is a real-time phishing detection system that combines Machine Learning with active Cyber Threat Intelligence (CTI). It operates as a Chrome browser extension, analyzing URLs on the fly and displaying results on a React-based analyst dashboard.
@@ -63,7 +63,7 @@ Chrome Extension / React Dashboard
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Backend API
 
@@ -92,7 +92,7 @@ npm run dev
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
 ### `POST /scan` — Phishing Detection
 
@@ -123,7 +123,7 @@ npm run dev
 
 ---
 
-## 🔑 Environment Variables
+##  Environment Variables
 
 Create a `.env` file in `2_backend/`:
 
@@ -139,7 +139,7 @@ VIRUSTOTAL_API_KEY=your_key_here
 
 ---
 
-## 🧠 ML Pipeline
+##  ML Pipeline
 
 - **Dataset:** PhishTank + Tranco Top 1M + URLhaus + ISCX URL 2016
 - **Features:** 16-dimensional URL feature vector (length, special chars, domain age, TLD, entropy, etc.)
@@ -155,7 +155,7 @@ python train.py           # Train and save model
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -168,15 +168,9 @@ python train.py           # Train and save model
 
 ---
 
-## 📊 Performance
+##  Performance
 
 - All CTI tasks run **concurrently** via `asyncio.gather()`
 - Typical total latency: **70–220ms** (well within 500ms target)
 - DNS timeout: 3s · WHOIS: 8s · HTTP: 4s
 
----
-
-## 👥 Mentors
-
-- **Naitik** — 8178596442  
-- **Aarsh** — 9520316522
