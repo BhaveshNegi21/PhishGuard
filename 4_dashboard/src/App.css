@@ -1,0 +1,15 @@
+/* PhishGuard Dashboard — Enterprise SaaS Theme */
+/* App.css is intentionally minimal; all styling is via Tailwind utility classes in App.jsx */
+
+/* Custom scrollbar for the table overflow container */
+.table-scroll::-webkit-scrollbar {
+  height: 4px;
+}
+.table-scroll::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+.table-scroll::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
